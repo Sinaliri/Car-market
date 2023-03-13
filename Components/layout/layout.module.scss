@@ -1,0 +1,40 @@
+.headerContainer {
+    height: 120px;
+    width: 440px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px auto;
+    span{
+        display: block;
+        width: 140px;
+        border: 1px solid #000;
+    }
+    .mainBrand{
+        font-size:18px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .maintext{
+        font-size: 16px;
+        margin-top: 5px;
+&::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+}
+    }
+    }
+    .footer {
+      background-color: rgb(217, 217, 217);
+      text-align: center;
+      color: grey;
+      padding: 10px 0;
+      margin-top: 30px;
+      bottom: 0;
+    }
+    .container {
+        min-height: 1000px;
+      }

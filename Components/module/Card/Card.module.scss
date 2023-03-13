@@ -1,0 +1,28 @@
+.container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    .image{
+      margin: 5px;
+      width: 250px;
+      border-radius: 5px;
+    }
+    .detail{
+        font-size: 0.85rem;
+        color: gray;
+    }
+    .price {
+        background-color: #00e5fa;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      .location{
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+  }
