@@ -1,0 +1,19 @@
+.container{
+    .imgContainer{
+        height: 100%;
+        img{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .minidetailContainer{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-top: 5px;
+        background-color: #ebebebb0;
+    }
+    .desc{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        line-height: 30px;
+    }
+}
