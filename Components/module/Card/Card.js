@@ -6,8 +6,8 @@ import Link from "next/link";
 const Card = (props) => {
   const { id, location, name, model, year, distance, image, price } = props;
   return (
-    <Link href={`/Car/${id}`}>
-      <div className={`col-12 sm:col-6  md:col-4 lg:col-3 ${style.container} `}>
+    <div className={`col-12 sm:col-6  md:col-4 lg:col-3 ${style.container} `}>
+        <Link href={`/Car/${id}`}>
         <div className="flex justify-content-center">
           <img className={style.image} src={image} alt={model} />
         </div>
@@ -26,8 +26,8 @@ const Card = (props) => {
             <Location />
           </div>
         </div>
-      </div>
     </Link>
+      </div>
   );
 };
 
