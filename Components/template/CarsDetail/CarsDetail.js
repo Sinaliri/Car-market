@@ -5,7 +5,7 @@ import Calender from "../../../Components/icons/Calender";
 import Road from "../../../Components/icons/Road";
 import Locaion from "../../../Components/icons/Location";
 import style from "./CarsDetail.module.scss";
-import Minidetail from "@/Components/module/Card/Minidetail";
+import Minidetail from "../../Minidetail";
 import Money from "@/Components/icons/Money";
 import { Button } from "primereact/button";
 

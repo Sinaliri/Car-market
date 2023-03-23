@@ -1,0 +1,25 @@
+.container{
+    label{
+        color: #646161;
+    }
+    input{
+        height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    margin: 10px 0;
+    }
+    .searchButton{
+        height: 148px;
+        margin: 0;
+        p{
+            color: #646161;
+            background-color: #bbdefb;
+            padding: 10px;
+            margin-top: 19px;
+            cursor: pointer;
+        }
+    }
+}
