@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
       </header>
       <div className={style.container}>{children}</div>
       <footer className={`c0l-12 ${style.footer}`}>
-        footer next.js course &copy;
+        footer &copy;
       </footer>
     </>
   );
