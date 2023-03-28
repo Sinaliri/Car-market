@@ -1,11 +1,10 @@
 .headerContainer {
-    height: 120px;
-    width: 440px;
-    background-color: red;
-    display: flex;
     justify-content: center;
     padding-top: 10px;
     margin: 10px auto;
+    .p-menubar{
+        background-color: #b1e0be !important;
+    }
     span{
         display: block;
         width: 140px;
